@@ -1,0 +1,212 @@
+{
+  "sitemap": {
+    "fileOptions": {
+      "api/*": {
+        "baseUrl": "https://docs.tesseract.in/documentation/",
+        "changefreq": "daily"
+      }
+    },
+    "baseUrl": "https://docs.tesseract.in/documentation/",
+    "changefreq": "weekly"
+  },
+  "homepages": [],
+  "source_base_path": "D:/a/ExampleSnippets-SelectButton/ExampleSnippets-SelectButton/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JMRSDKExampleSnippets.SelectGunExample.Gun.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JMRSDKExampleSnippets.SelectGunExample.Gun.html",
+          "hash": "nAGqureEzp3d5TMuUrlsmHmJmvcjW9IGnVY3ZT1kOno="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JMRSDKExampleSnippets.SelectGunExample.GunLookAtScript.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JMRSDKExampleSnippets.SelectGunExample.GunLookAtScript.html",
+          "hash": "BtgUlj8RClqPvOcx7aUJWlkugaeMf7dd1Nl+BJHmsBY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JMRSDKExampleSnippets.SelectGunExample.UIManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JMRSDKExampleSnippets.SelectGunExample.UIManager.html",
+          "hash": "mGH+UNAhyES8S99fjGO74C323Q0nUbKajDmooSqQoPE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JMRSDKExampleSnippets.SelectGunExample.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JMRSDKExampleSnippets.SelectGunExample.html",
+          "hash": "A2wZ7wXVC0MtX3O9Qo4ufNeQt84hRwNqyGzPa4NeRqU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "MIQduG6Th0Ep7Mng92qGHBq15zMAAIZdG3uQdoBIJzU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "aXwzeFS4ujHgg90UZVNT167TmiLzO6cF5QbJa7eUUrE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/JMRSamples.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/JMRSamples.html",
+          "hash": "18b2tKeJv6S5l4z0xBVnotypx0UrCAPkMbU++D6vBqk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "XN+wjYvVW3A8sUmllPWxGDf/WRi9DigMwl7PXcVE6Ck="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ExampleManual.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ExampleManual.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ExampleScriptingApi.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ExampleScriptingApi.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "6KKq0LQBqMW9lU57SFtTft/KfuAxwaePKIRLbQYnJJo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 4,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
