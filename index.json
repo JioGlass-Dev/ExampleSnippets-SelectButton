@@ -21,8 +21,8 @@
   },
   "index.html": {
     "href": "index.html",
-    "title": "ExampleSnippets-SelectButton | JMR Samples",
-    "keywords": "ExampleSnippets-SelectButton Select Button Implementation of JMRSDK"
+    "title": "Select Button | JMR Samples",
+    "keywords": "Select Button Select button implementation of JMRSDK Scripts Gun.cs Shows example of accessing callbacks when select button is pressed down, released and clicked. Interfaces to implement select button funtionalities cs public class SelectButton : MonoBehaviour, ISelectHandler, ISelectClickHandler Methods to implement select related funtionality cs public void OnSelectClicked(SelectClickEventData eventData) { } public void OnSelectDown(SelectEventData eventData) { } public void OnSelectUp(SelectEventData eventData) { } How to use? Download and unzip this project. Open the project using Unity Hub. Download and import the latest version of JMRSDK package. Open and play the SelectGun scene from Assets/Scenes folder."
   },
   "manual/JMRSamples.html": {
     "href": "manual/JMRSamples.html",
